@@ -5,16 +5,16 @@ Multicopter autopilot system for robust navigation and task execution in closed 
 
 ## BRIEF MANUAL:
 ### IMPORTANT!
-1. This manual assumes you have successfully installed the ROS Indigo on Ubuntu (the code was tested on Ubuntu 14.04)
+1. This manual assumes you have successfully installed the ROS Kinetic on Ubuntu (the code was tested on Ubuntu 14.04)
 2. Useful ROS HOWTO's: 
-  - [ROS Indigo installation](http://wiki.ros.org/indigo/Installation/Ubuntu "Read this to install ROS on your system")
+  - [ROS Kinetic installation](http://wiki.ros.org/kinetic/Installation/Ubuntu "Read this to install ROS on your system")
   - [ROS Tutorial](http://wiki.ros.org/ROS/Tutorials "This is a brief ROS tutorial. Helps to understand basic ROS concepts")
   - [Actionlib](http://wiki.ros.org/actionlib "Look into the actionlib tutorials if you want to deal with the code")
   - [Smach](http://wiki.ros.org/smach/Tutorials "The state mashine library that controls the drone's behavior")
 3. Download the 'cognifli' code:
 ```
 cd ~/
-git clone https://github.com/cognifli/cognifli
+git clone https://github.com/ncos/cognifli
 ```
 4. Some additional packages are to be installed to successfully compile the code. I'll maybe write about this one day, but at the moment you have to look at the compiler errors and set everything up yourself ;)
 5. To use bash scripts launch *.../cognifli/contrib/INSTALL.py*. It will generate scripts for you and place them to *.../cognifli/contrib/launchers_gen*. It will also add these to your system PATH. Please take into account that your *~/.bashrc* will be modified! If you want to move the *.../cognifli* folder do it, and after that relaunch *.../cognifli/contrib/INSTALL.py*. The paths will (hopefully) be reconfigured automatically. *INSTALL.py --deps* will also try to install some (if not all!) project dependencies. Run *INSTALL.py -h* to get the full list of options.

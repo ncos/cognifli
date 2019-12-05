@@ -5,9 +5,9 @@ Multicopter autopilot system for robust navigation and task execution in closed 
 
 ## BRIEF MANUAL:
 ### IMPORTANT!
-1. This manual assumes you have successfully installed the ROS Kinetic on Ubuntu (the code was tested on Ubuntu 14.04)
+1. This manual assumes you have successfully installed the ROS Melodic on Ubuntu (the code was tested on Ubuntu 18.04)
 2. Useful ROS HOWTO's: 
-  - [ROS Kinetic installation](http://wiki.ros.org/kinetic/Installation/Ubuntu "Read this to install ROS on your system")
+  - [ROS Melodic installation](http://wiki.ros.org/melodic/Installation/Ubuntu "Read this to install ROS on your system")
   - [ROS Tutorial](http://wiki.ros.org/ROS/Tutorials "This is a brief ROS tutorial. Helps to understand basic ROS concepts")
   - [Actionlib](http://wiki.ros.org/actionlib "Look into the actionlib tutorials if you want to deal with the code")
   - [Smach](http://wiki.ros.org/smach/Tutorials "The state mashine library that controls the drone's behavior")
